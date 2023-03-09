@@ -18,6 +18,7 @@ body {
     align-items: center;
     padding: 15px 50px;
 }
+
 .header-links {
     font-size: 18px;
     display: flex;
@@ -38,13 +39,28 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: red;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+    border-style: solid;
+    border-color: red;
 }
 
+.hero-right img {
+    max-width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-right {
+    border-style: solid;
+    border-color: red;
+}
 .hero-text {
     font-size: 48px;
     font-weight: extra-bold;
@@ -55,3 +71,4 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
