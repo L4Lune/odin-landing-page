@@ -39,28 +39,29 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-style: solid;
     border-color: red;
 }
 
 .hero-left {
     display: flex;
+    flex: 1;
     flex-direction: column;
     border-style: solid;
     border-color: red;
 }
 
 .hero-right img {
-    width: 40%;
+    width: 50%;
 }
 
 .hero-right {
     border-style: solid;
     border-color: red;
     display: flex;
-    flex-shrink: 1;
-    justify-content: flex-end;
+    flex: 1;
+    justify-content: center;
 }
 .hero-text {
     font-size: 48px;
