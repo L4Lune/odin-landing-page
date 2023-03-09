@@ -79,5 +79,6 @@ a {
 
 .hero-left button {
     align-self: flex-start;
-    background-color: #3882f6;;
+    background-color: #3882f6;
+    border-radius: 5px;
 }
