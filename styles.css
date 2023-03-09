@@ -52,14 +52,15 @@ a {
 }
 
 .hero-right img {
-    max-width: 40%;
-    display: flex;
-    justify-content: flex-end;
+    width: 40%;
 }
 
 .hero-right {
     border-style: solid;
     border-color: red;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: flex-end;
 }
 .hero-text {
     font-size: 48px;
