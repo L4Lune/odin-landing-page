@@ -123,3 +123,24 @@ a {
 /* Info Styling End */
 
 /* Quote Styling */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic; 
+}
+
+.quotee {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
