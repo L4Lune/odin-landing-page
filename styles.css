@@ -144,3 +144,31 @@ a {
     padding-top: 30px;
 }
 
+/* Quote Styling End */
+
+/* Call to Action Styling */
+
+.cta {
+    background-color: #3882f6;
+    margin: 30px 60px;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text, .cta-subtext {
+    color: #E5E7EB;
+}
+
+.cta button {
+    align-self: flex-start;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: white;
+}
+
+/* Call to Action Styling End */
+
+/* Footer Styling */
