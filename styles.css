@@ -42,6 +42,7 @@ a {
     padding-bottom: 50px;
     display: flex;
     justify-content: space-around;
+    gap: 15px;
     border-style: solid;
     border-color: red;
 }
