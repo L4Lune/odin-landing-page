@@ -67,6 +67,7 @@ a {
     flex: 1;
     justify-content: center;
 }
+
 .hero-text {
     font-size: 48px;
     font-weight: extra-bold;
@@ -83,4 +84,21 @@ a {
     background-color: #3882f6;
     border-radius: 5px;
     color:#F9FAF8;
+}
+
+/* Hero Styling End */
+
+/* Info Styling */
+
+.info-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    text-align: center;
 }
