@@ -172,3 +172,12 @@ a {
 /* Call to Action Styling End */
 
 /* Footer Styling */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
