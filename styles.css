@@ -96,9 +96,29 @@ a {
     color: #1F2937;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .information {
     display: flex;
     text-align: center;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+    border-style: solid;
+    border-color: red;
 }
+
+.info-items {
+    max-width: 200px;
+    border-style: solid;
+    border-color: red;
+}
+
+.info-items img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Info Styling End */
+
+/* Quote Styling */
